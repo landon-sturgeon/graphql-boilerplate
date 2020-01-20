@@ -3,6 +3,6 @@ type User {
     name: String!
     email: String! @unique
     password: String!
-    updatedAt: DateTime!
-    createdAt: DateTime!
+    updatedAt: DateTime! @updatedAt
+    createdAt: DateTime! @createdAt
 }
